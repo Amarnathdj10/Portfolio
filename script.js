@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function initScrollAnimations() {
   // Generic fade-in-up
   const fadeEls = [
+    ...document.querySelectorAll('.experience-card'),
     ...document.querySelectorAll('.project-card'),
     ...document.querySelectorAll('.skill-category'),
     ...document.querySelectorAll('.achievement-card'),
